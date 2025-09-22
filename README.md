@@ -54,6 +54,8 @@ Se creará un entorno capaz de ejecutar los códigos asociados al desafío. Para
 - Abrir la terminal y dirigirse con el comando "cd" a un lugar donde desea instalar el entorno
 - Ejecutar el comando "python3.12 -m venv NombreEnv",  con esto creará una carpeta llamada "NombreEnv"
 - Usar "cd NombreEnv", y ejecutar "Scripts\activate", con esto cargará el entorno.
+<img width="1272" height="197" alt="capture_250922_193340" src="https://github.com/user-attachments/assets/2ec75fd3-7c9d-4e18-b6bb-80d63cdd4e49" />
+
 - Ir desde la terminal a la ubicación de "requirements.txt"
 - Ejecutar "pip install -r requirements.txt" para instalar las librerias
 - Ejecutr "pip install ipykernel"
