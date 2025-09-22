@@ -75,7 +75,7 @@ Para abrir la API de la tarea 7, debemos cerrar todo y abrir otra terminal para 
 De esta forma,
 - Abrimos una terminal,
 - Nos dirigimos "dentro" de la carpeta "NombreEnv" usando el comando "cd",
-- Ejecutarmos "Scripts\activate" para cargar el entorno.
+- Ejecutarmos "Scripts\activate" para cargar el entorno.  
 Notar que podemos usar "ctrl+c" en la terminal en que ejecutamos "jupyter notebook" para cargar el entorno.
 
 Seguimos ...
