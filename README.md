@@ -66,7 +66,7 @@ Sobre la terminal del punto anterior, ejecutamos:
 - Abrir el archivo "Ortega_Ignacio_desafio.ipynb"
 
 ## Instructivo para ejecutar la API
-Una vez corrido el código de "Ortega_Ignacio_desafio.ipynb", habremos generado los archivos:
+Una vez ejecutado el código de "Ortega_Ignacio_desafio.ipynb", habremos generado los archivos:
 - cleaned_olympic_data.csv
 - olympic_kpi.json
 en la carpeta "results".
@@ -75,7 +75,7 @@ Para abrir la API de la tarea 7, debemos cerrar todo y abrir otra terminal para 
 De esta forma,
 - Abrimos una terminal,
 - Nos dirigimos "dentro" de la carpeta "NombreEnv" usando el comando "cd",
-- Ejecutarmos "Scripts\activate" para cargar el entorno,
+- Ejecutarmos "Scripts\activate" para cargar el entorno.
 Notar que podemos usar "ctrl+c" en la terminal en que ejecutamos "jupyter notebook" para cargar el entorno.
 
 Seguimos ...
@@ -92,7 +92,7 @@ Esta API tiene un página inicial con hipervínculos que dirige a las direccione
 Los archivos ("cleaned_olympic_data.csv", "olympic_kpi.json") están en la carpeta "./results".
 
 # Desafíos dentro del desafío.
-Pienso que como ingeniero matemático, el desafío más grande fue armar la API y pensar claves con la cuál se pudiera identificar a cierta persona, esto se ve más claramente cuando debemos validar los datos y concluimos que ciertos atletas están duplicados sin considerar la columna medalla.
+Pienso como ingeniero matemático que el desafío más grande fue armar la API y pensar claves con la cuál se pudiera identificar a cierta persona, esto se ve más claramente cuando debemos validar los datos y concluimos que ciertos atletas están duplicados sin considerar la columna medalla.
 
 
 
