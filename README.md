@@ -41,7 +41,7 @@ Luego, concatenamos estas claves, y nos fijamos que exite un atleta llamado "Ado
 Notar que los eventos asociados al Deporte llamado "Art Competitions" es poco especifico, puesto que existen muchas categorias de eventos asociadas a este deporte y algunos son desconocidos. Aún así, aplicaremos la misma clave primaria.
 
 
-# Instrucciones sobre cómo configurar el entorno
+# Instructivo
 Versión de python: 3.12
 Lista de librerias utilizadas se instala desde el archivo "requirements.txt"
 
@@ -49,7 +49,7 @@ Lista de librerias utilizadas se instala desde el archivo "requirements.txt"
 Se creará un entorno capaz de ejecutar los códigos asociados al desafío. Para esto, se ejecutara el jupyter notebook con las tareas de la 1 al 6. Luego, se ejecuta la api de la tarea 7.
 
 
-## Instructivo.
+## Instructivo para configurar el entorno.
 - Instalar python versión 3.12
 - Abrir la terminal y dirigirse con el comando "cd" a un lugar donde desea instalar el entorno
 - Ejecutar el comando "python3.12 -m venv NombreEnv",  con esto creará una carpeta llamada "NombreEnv"
@@ -59,9 +59,13 @@ Se creará un entorno capaz de ejecutar los códigos asociados al desafío. Para
 - Ir desde la terminal a la ubicación de "requirements.txt"
 - Ejecutar "pip install -r requirements.txt" para instalar las librerias
 - Ejecutr "pip install ipykernel"
-- Ejecutar en la terminal "jupyter notebook"
-- Abrir el archivo "desafio.ipynb"
 
+## Instructivo para ejecutar el jupyter notebook
+Sobre la terminal del punto anterior, ejecutamos:
+- Ejecutar en la terminal "jupyter notebook"
+- Abrir el archivo "Ortega_Ignacio_desafio.ipynb"
+
+## Instructivo para ejecutar la API
 Una vez corrido el código de "Ortega_Ignacio_desafio.ipynb", habremos generado los archivos:
 - cleaned_olympic_data.csv
 - olympic_kpi.json
