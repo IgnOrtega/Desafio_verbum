@@ -80,8 +80,14 @@ Una vez ejecutado, debe hacer click+ctrl sobre la dirección que aparece en la t
 
 <img width="1436" height="230" alt="capture_250922_190912" src="https://github.com/user-attachments/assets/0a544002-f343-495d-a80b-fc530c173232" />
 
-
 Esta API tiene un página inicial con hipervínculos que dirige a las direcciones de la tarea 7. Usar otro filtro que sea "noc=CHI", podemos usar la página de ejemplo "http://127.0.0.1:5000/athlete_data_by_noc?noc=CHI" y cambiar "CHI" por el país deseado, por ejemplo "http://127.0.0.1:5000/athlete_data_by_noc?noc=USA".
+
+# Ubicación de los archivos
+Los archivos ("cleaned_olympic_data.csv", "olympic_kpi.json") están en la carpeta "./results".
+
+# Desafíos dentro del desafío.
+Pienso que como ingeniero matemático, el desafío más grande fue armar la API y pensar claves con la cuál se pudiera identificar a cierta persona, esto se ve más claramente cuando debemos validar los datos y concluimos que ciertos atletas están duplicados sin considerar la columna medalla.
+
 
 
 
