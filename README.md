@@ -58,7 +58,7 @@ Se creará un entorno capaz de ejecutar los códigos asociados al desafío. Para
 
 - Ir desde la terminal a la ubicación de "requirements.txt"
 - Ejecutar "pip install -r requirements.txt" para instalar las librerias
-- Ejecutr "pip install ipykernel"
+- Ejecutar "pip install ipykernel"
 
 ## Instructivo para ejecutar el jupyter notebook
 Sobre la terminal del punto anterior, ejecutamos:
@@ -68,15 +68,25 @@ Sobre la terminal del punto anterior, ejecutamos:
 ## Instructivo para ejecutar la API
 Una vez ejecutado el código de "Ortega_Ignacio_desafio.ipynb", habremos generado los archivos:
 - cleaned_olympic_data.csv
-- olympic_kpi.json
-en la carpeta "results".
+- olympic_kpi.json  
+en la carpeta "results" que también será generada.
 
-Para abrir la API de la tarea 7, debemos cerrar todo y abrir otra terminal para cargar el entorno nuevamente y ejecutar la api. 
-De esta forma,
+Para abrir la API de la tarea 7 debemos cargar el entorno creado. Así, tenemos dos alternativas para realizar esta tarea: 
+
+**Alternativa 1**  
+- Usar "ctrl+c" en la terminal en que ejecutamos "jupyter notebook" para cancelar el proceso.
+Con esto, tendremos el entorno cargado puesto que ya estaba cargado.
+<img width="1897" height="420" alt="cargar_entorno" src="https://github.com/user-attachments/assets/5f4f1ecb-c956-4250-b462-86130999ed81" />
+
+**Alternativa 2**  
+La idea es cerrar todo y abrir otra terminal para cargar el entorno nuevamente y ejecutar la api. 
+De esta forma:
+- Cerramos todo,
 - Abrimos una terminal,
 - Nos dirigimos "dentro" de la carpeta "NombreEnv" usando el comando "cd",
 - Ejecutarmos "Scripts\activate" para cargar el entorno.  
-Notar que podemos usar "ctrl+c" en la terminal en que ejecutamos "jupyter notebook" para cargar el entorno.
+Con esto tendremos el entorno cargado.
+<img width="1272" height="197" alt="capture_250922_193340" src="https://github.com/user-attachments/assets/2ec75fd3-7c9d-4e18-b6bb-80d63cdd4e49" />
 
 Seguimos ...
 - Nos dirigimos a la ubicación del archivo "api.py" con el comando "cd",
