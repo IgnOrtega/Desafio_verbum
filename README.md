@@ -1,3 +1,5 @@
+Para poder visualizar mejor el reamde.md puede ir al siguiente enlace https://github.com/IgnOrtega/Desafio_verbum/blob/master/README.md
+
 # Justificación de decisiones clave.
 ## Imputación de los datos.
 **Caso columna "Age":**  
